@@ -16,14 +16,14 @@
             <a class="navigation-link" href="about.html">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="hotels.html">Гостиницы</a>
           </li>
         </ul>
 
-        <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" alt="Логотип Седона" src="">
+        <a class="navigation-logo" href="index.html"></a>
+          <img class="logo" src="img/logo-sedona.svg" width="138" height="70" alt="Седона">
         </a>
-        
+
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
@@ -40,6 +40,7 @@
 
     <main class="main-inner">
       <header class="inner-header">
+        <img class="catalog-background" src="img/catalog-background.jpg" alt="Фон каталога">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -152,53 +153,68 @@
         <ul class="product-list"></ul>
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="" alt="Картинка">
+              <img class="product-card-image" src="img/hotel-one.jpg" alt="Картинка">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
             <p class="product-card-desk">Гостиница</p>
             <p class="product-card-price">От 4000 ₽</p>
             <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <a class="product-card-button button " href="#">В ИЗБРАННОЕ</a>
-            <img class="product-card-rating" src="" alt="">
+            <div class="rating">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+            </div>
             <p class="product-card-rate">РЕЙТИНГ: 8,5</p>
           </li>
           
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="" alt="Картинка">
+              <img class="product-card-image" src="img/hotel-two.jpg" alt="Картинка">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <p class="product-card-desk">Мотель</p>
             <p class="product-card-price">От 3000 ₽</p>
             <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
-            <img class="product-card-rating" src="" alt="">
+            <div class="rating">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+            </div>
             <p class="product-card-rate">РЕЙТИНГ: 8,9</p>
           </li>
           
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="" alt="Картинка">
+              <img class="product-card-image" src="img/hotel-three.jpg" alt="Картинка">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
             <p class="product-card-desk">Апартаменты</p>
             <p class="product-card-desk">От 2000 ₽</p>
             <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
-            <img class="product-card-rating" src="" alt="">
+            <div class="rating">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+            </div>
             <p class="product-card-rate">РЕЙТИНГ: 9,2</p>
           </li>
           
           <li class="product-card">
             <a class="product-card-link" href="product.html">
-              <img class="product-card-image" src="" alt="Картинка">
+              <img class="product-card-image" src="img/hotel-four.jpg" alt="Картинка">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <p class="product-card-desk">Гостиница</p>
             <p class="product-card-price">От 3000 ₽</p>
             <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
-            <img class="product-card-rating" src="" alt="">
+            <div class="rating">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+              <img class="product-card-rating" src="img/vector-star.svg" alt="Рейтинг">
+            </div>
             <p class="product-card-rate">РЕЙТИНГ: 9,2</p>
           </li>
         </ul>
@@ -249,24 +265,24 @@
         <h2 class="visually-hidden">Социальные сети</h2>
        <ul class="footer-socila-list">
          <li class="footer-social-item">
-           <a class="button" href="">
-             <span class="visually-hidden">Твитер</span>
-           </a>
+           <p>
+             <a class="button" href="#"><img src="img/twitter.svg" width="18" height="15" alt="Твитер"></a>
+            </p>
          </li>
          <li class="footer-social-item">
-          <a class="button" href="">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
+          <p>
+            <a class="button" href="#"><img src="img/facebook.svg" width="18" height="15" alt="Фэйсбук"></a>
+           </p>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="">
-            <span class="visually-hidden">Ютуб</span>
-          </a>
+          <p>
+            <a class="button" href="#"><img src="img/youtube.svg" width="18" height="15" alt="Ютуб"></a>
+           </p>
         </li>
        </ul>
       </section>
       <p class="phone-number">+7 (812) 812-12-12</p>
-      <img src="" alt="Лого Академии">
+      <img class="logo-academy" src="img/logo_htmlacademy.svg" width="115" height="34" alt="Лого Академии">
     </footer>
   </body>
 </html>
